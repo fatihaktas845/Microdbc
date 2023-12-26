@@ -15,8 +15,6 @@ private:
 	SQLHANDLE sqlStatementHandle;
 	SQLRETURN retcode;
 	
-	std::string connString;
-	
 	void print_error(unsigned int handleType, const SQLHANDLE& handle);
 	
 public:
