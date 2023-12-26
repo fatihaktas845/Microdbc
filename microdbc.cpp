@@ -28,14 +28,12 @@ Microdbc::~Microdbc()
 
 bool Microdbc::connect(const string& connectionString)
 {
-	connString = connectionString;
-	
 	if (SQL_SUCCESS != SQLAllocHandle(SQL_HANDLE_DBC, sqlEnvHandle, &sqlConnectionHandle))
 		throw "SQLAllocHandle failed!";
 	
 	cout << "Connecting to the database..." << endl;
 	
-	retcode = SQLDriverConnect(sqlConnectionHandle, NULL, (SQLCHAR*)connString.c_str(), SQL_NTS, NULL, 0, NULL, SQL_DRIVER_NOPROMPT);
+	retcode = SQLDriverConnect(sqlConnectionHandle, NULL, (SQLCHAR*)connectionString.c_str(), SQL_NTS, NULL, 0, NULL, SQL_DRIVER_NOPROMPT);
 	
 	if (SQL_SUCCESS == retcode)
 		return true;
