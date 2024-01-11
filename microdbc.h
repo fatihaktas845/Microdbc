@@ -7,6 +7,10 @@
 #include <sqlext.h>
 #include <sqltypes.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 class Microdbc
 {
 private:
@@ -25,5 +29,9 @@ public:
 	void disconnect();
 	std::string executeQuery(const std::string query);
 };
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // MICRODBC_HPP
