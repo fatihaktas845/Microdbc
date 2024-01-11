@@ -1,5 +1,5 @@
-#ifndef MICRODBC_HPP
-#define MICRODBC_HPP
+#ifndef MICRODBC_H
+#define MICRODBC_H
 
 #include <windows.h>
 #include <iostream>
@@ -34,4 +34,4 @@ public:
 }
 #endif
 
-#endif // MICRODBC_HPP
+#endif // MICRODBC_H
