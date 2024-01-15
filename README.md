@@ -7,4 +7,4 @@
   * Microsoft ODBC Server for SQL 17.0 veya üzeri
 
 ### ÖNEMLİ!!!
-  * Kodlar sadece Visual C++ derleyicisinde çalışmaktadır. Sebebi ise Microsoft'un SQL için verdiği kütüphaneler sadece Visual Studio içerisinde çalışmaktadır!
+  * Kodlar sadece Visual C++ derleyicisinde çalışmaktadır.
