@@ -1,4 +1,4 @@
-![logo](zyro-image.png)
+![logo](image.png)
 
 ### Kurulum
   * Kurulum çok basit! Sadece proje içerisindeki başlık dosyasını ve kaynak kod dosyasını projenize dahil etmeniz gerekmektedir.
