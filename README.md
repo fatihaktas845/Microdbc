@@ -8,4 +8,8 @@
   * Microsoft ODBC Server for SQL 17.0 veya üzeri
 
 ### ÖNEMLİ!!!
-  * `msvcrxxx.lib` bağımlılığındaki `xxx` derleyici sürümünü belirtmektedir.
+  * `msvcrxxx.lib` bağımlılığındaki `xxx` derleyicinin CRT sürümünü belirtmektedir. Örneğin:
+     * Visual Studio 2019 için: `msvcr140.lib`
+     * Visual Studio 2017 için: `msvcr140.lib`
+    ## NOT:
+       * Visual Studio derleyicinizin CRT sürümünü derleyicinizin dokümanlarında veya proje ayarlarında bulabilirsiniz.
