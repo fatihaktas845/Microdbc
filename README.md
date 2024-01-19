@@ -6,3 +6,6 @@
 
 ### Gereksinimler
   * Microsoft ODBC Server for SQL 17.0 veya üzeri
+
+### ÖNEMLİ!!!
+  * `msvrcxxx.lib` bağımlılığındaki `xxx` derleyici sürümünü belirtmektedir.
