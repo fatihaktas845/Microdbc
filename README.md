@@ -6,6 +6,3 @@
 
 ### Gereksinimler
   * Microsoft ODBC Server for SQL 17.0 veya üzeri
-
-### ÖNEMLİ!!!
-  * 
